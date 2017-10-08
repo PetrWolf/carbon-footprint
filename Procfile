@@ -1,1 +1,1 @@
-web: bokeh serve --port $PORT src\footprint
+web: bokeh serve --host=tranquil-temple-94088.herokuapp.com --port $PORT --use-xheaders src/footprint
